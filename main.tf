@@ -14,7 +14,7 @@ resource "aws_security_group" "allow_tls" {
     }
   }
 
-    #outboubd rules for same for all sgs,so keep egress is static
+  #outboubd rules for same for all sgs,so keep egress is static and 
   egress {
     from_port        = 0
     to_port          = 0
